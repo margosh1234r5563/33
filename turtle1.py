@@ -3,25 +3,7 @@ turtle.setup(600, 600)
 t=turtle.Pen()
 
 import math
-def sqr (x,y,a):
-    t.penup()
-    t.setposition(x,y)
-    t.pendown()
-    for i in range (4):
-        t.forward(a)
-        t.left(90)
-
-def trng (x,y,d):
-    t.penup()
-    t.setposition(x,y)
-    t.pendown()
-    t.forward(d)
-    t.right(90)
-    t.forward(d)
-    t.right(135)
-    t.forward(math.sqrt(d**2+d**2))
-
-#Квадрат
+#square
 def sqr(x, y, a):
     t.up()
     t.setposition(x, y)
@@ -35,8 +17,19 @@ def sqr(x, y, a):
     t.forward(a)
     t.right(90)
 
+#triangle with two equal sides
+def trng (x,y,d):
+    t.penup()
+    t.setposition(x,y)
+    t.pendown()
+    t.forward(d)
+    t.right(90)
+    t.forward(d)
+    t.right(135)
+    t.forward(math.sqrt(d**2+d**2))
+
 import math
-#Прямоугольный треугольник
+#triangle with 90-degree angle
 def trng_90(x,y,s):
     d = math.sqrt(2 * s * s)
     t.up()
@@ -48,6 +41,7 @@ def trng_90(x,y,s):
     t.right(135)
     t.forward(s)
 
+#pallelogram wuth different side sizes
 def prllgrm (x,y,f):
     t.penup()
     t.setposition(x,y)
@@ -58,7 +52,7 @@ def prllgrm (x,y,f):
         t.forward(f)
         t.left(135)
 
-#Параллелограмм
+#parallelogram
 import math
 def prlm(x,y,m):
     e = math.sqrt(2 * m * m)
@@ -228,7 +222,7 @@ def rckt():
     trng(173, -239, 31)
     t.left(45)
     prlm(263, -283, 31)
-    t.right(90)
+    t.right(135)
 
 rabbit()
 fish()
