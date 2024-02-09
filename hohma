@@ -1,0 +1,181 @@
+
+#helicopter
+def hlcpt():
+    t.right(45)
+
+    t.fillcolor('#F72A49')
+    t.begin_fill()
+    trng(30,-211,55)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#FEDD12')
+    t.begin_fill()
+    trng(27,-289,55)
+    t.end_fill()
+    t.left(135)
+
+    t.fillcolor('#A050E3')
+    t.begin_fill()
+    trng(-32,-272,27)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#EC66E7')
+    t.begin_fill()
+    trng(-17,-253,27)
+    t.end_fill()
+    t.left(225)
+
+    t.fillcolor('#FF7C00')
+    t.begin_fill()
+    sqr(-45,-240,28)
+    t.end_fill()
+    t.right(180)
+
+    t.fillcolor('#50BBE9')
+    t.begin_fill()
+    trng(-37,-208,45)
+    t.end_fill()
+    t.left(225)
+
+    t.fillcolor('8ECC21')
+    t.begin_fill()
+    prlm(30,-208,30)
+    t.end_fill()
+    t.right(45)
+
+#sail
+def sl():
+    t.left(180)
+
+    t.fillcolor('#A050E3')
+    t.begin_fill()
+    trng(-198,-173,27)
+    t.end_fill()
+
+    t.fillcolor('#F72A49')
+    t.begin_fill()
+    trng(-225,-175,55)
+    t.end_fill()
+    t.left(180)
+
+    t.fillcolor('#FEDD12')
+    t.begin_fill()
+    trng(-228,-193,55)
+    t.end_fill()
+
+    t.fillcolor('#EC66E7')
+    t.begin_fill()
+    trng(-225,-256,27)
+    t.end_fill()
+    t.right(45)
+
+    t.fillcolor('#FF7C00')
+    t.begin_fill()
+    sqr(-185,-256,28)
+    t.end_fill()
+    t.right(270)
+
+    t.fillcolor('#50BBE9')
+    t.begin_fill()
+    trng(-184,-259,40)
+    t.end_fill()
+    t.left(180)
+
+    t.fillcolor('#8ECC21')
+    t.begin_fill()
+    prlm(-216,-287,28)
+    t.end_fill()
+    t.right(180)
+
+#left man
+def lft_man():
+    t.right(135)
+
+    t.fillcolor('#FF7C00')
+    t.begin_fill()
+    sqr(-196,93,31)
+    t.end_fill()
+    t.right(135)
+
+    t.fillcolor('#F72A49')
+    t.begin_fill()
+    trng(-227,12,55)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#8ECC21')
+    t.begin_fill()
+    prlm(-230,66,28)
+    t.end_fill()
+
+    t.fillcolor('#FEDD12')
+    t.begin_fill()
+    trng(-209,25, 55)
+    t.end_fill()
+    t.right(90)
+
+    t.fillcolor('#50BBE9')
+    t.begin_fill()
+    trng(-206,-10,40)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#A050E3')
+    t.begin_fill()
+    trng(-209,-91,27)
+    t.end_fill()
+    t.left(180)
+
+    t.fillcolor('#EC66E7')
+    t.begin_fill()
+    trng(-287,-50,27)
+    t.end_fill()
+    t.left(135)
+
+#spacecraft
+def rckt():
+    t.left(45)
+
+    t.fillcolor('#EC66E7')
+    t.begin_fill()
+    trng(199,-128,27)
+    t.end_fill()
+    t.right(180)
+
+    t.fillcolor('#50BBE9')
+    t.begin_fill()
+    trng(198, -130, 40)
+    t.end_fill()
+    t.right(180)
+
+    t.fillcolor('#FEDD12')
+    t.begin_fill()
+    trng(198, -133, 55)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#F72A49')
+    t.begin_fill()
+    trng(238, -252, 55)
+    t.end_fill()
+    t.right(45)
+
+    t.fillcolor('#FF7C00')
+    t.begin_fill()
+    sqr(220, -238, 31)
+    t.end_fill()
+    t.left(90)
+
+    t.fillcolor('#A050E3')
+    t.begin_fill()
+    trng(173, -239, 31)
+    t.end_fill()
+    t.left(45)
+
+    t.fillcolor('#8ECC21')
+    t.begin_fill()
+    prlm(263, -283, 31)
+    t.end_fill()
+    t.right(135)
