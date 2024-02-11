@@ -5,8 +5,7 @@ t.setup(600, 600)
 t.pencolor("white")
 t.pensize(1)
 
-
-# square
+#square
 def sqr(x, y, a):
     t.up()
     t.setposition(x, y)
